@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Daniel Osei Portfolio Website, Daniel Osei, Dannyose, Danny10ison,  My Personal website on Github" />
@@ -17,98 +17,104 @@
 
     <title>Dannyose | The Tech Enthusiast</title>
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    #hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #111, #333);
+      color: #fff;
+    }
+    #projects .card {
+      background: #fff;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!--
-        All Stylesheets
-    -->
-    <!--bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!--style.css -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <!--font-awesome.css -->
-    <!--portfolio.css -->
-    <!--menu.css -->
-    <!--animate.css -->
-    <!--responsive.css -->
+  <section id="hero">
+    <h1>Hello, I'm Daniel</h1>
+    <p>Developer • Designer • Tech Entrepreneur</p>
+    <button onclick="scrollToSection('projects')">View My Work</button>
+  </section>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate developer who builds systems, websites, and tech solutions.
+      I love working with React, Django, and AI-driven tools.
+    </p>
+  </section>
 
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>All Base Tools</h3>
+      <p>
+        This project is a PHP based online collection of useful 
+        tools for businesses, experts and anyone who needs to get things done quickly.
 
-
-  </head>
-  <body>
-    <!--some loader start here -->
-
-    <!--HEADER-->
-    <div id="home">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-              <h1 class="logo"><a href="#home">Dannyose</a></h1>
-              <nav class="nav-collapse">
-                <ul>
-                  <li class="menu-item active"><a href="#home">Home</a></li>
-                  <li class="menu-item"><a href="#about">About</a></li>
-                  <li class="menu-item"><a href="#passion">Passion</a></li>
-                  <li class="menu-item"><a href="#skill">Skills</a></li>
-                  <li class="menu-item"><a href="#getintouch">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
+        EngTools is a collection of free online tools for engineers, students, and professionals.
+        BizTools is a collection of free online tools for business owners, entrepreneurs, and professionals.
+        StudTools is a collection of free online tools for students, teachers, and professionals.
+      </p>
     </div>
-      <!--HERO SECTION-->
-    <section class="wrapper" id="banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <p  class="os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s">
-              Hi there! Nice Meeting You.
-            </p>
-            <a href="#" class="os-animation btn btn-2 btn-2a" data-os-animation="zoomIn" data-os-animation-delay="0.5s">
-              CONTACT ME
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+  </section>
 
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email:  <a href="mailto:pagesngod@gmail.com">pagesngod@gmail.com</a> </p>
+    <p>GitHub: <a href="https://github.com/yourusername"> https://github.com/yourusername</a></p>
+  </section>
 
-    <!--ABOUT-->
+  <footer>
+    © 2025 Daniel — All rights reserved
+  </footer>
 
-    <!--PASSION-->
-
-    <!--SKILL-->
-
-    <!--GET IN TOUCH-->
-
-    <!--FOOTER-->
-    <footer class="wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">Dribbble</a></li>
-              <li><a href="#">GitHub</a></li>
-              <!--Add more-->
-          </ul>
-          <p>Made with love | Dannyose</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!--
-        JavaScript
-    -->
-    <!--Fastclick.js-->
-    <!--scroll.js-->
-    <!--fixed responsive nav.js-->
-  </body>
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
 </html>
